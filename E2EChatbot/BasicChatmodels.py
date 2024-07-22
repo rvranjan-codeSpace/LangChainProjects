@@ -24,3 +24,7 @@ output = gpt_turbo_llm.invoke([
 print(type(output))
 print(output)
 
+# The output can also be retireved as list of documents
+
+
+

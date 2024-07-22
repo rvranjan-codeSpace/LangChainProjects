@@ -19,6 +19,8 @@ def get_file_content(path:str)->str:
         file_content= f.read()
     return file_content
 
+
+
 file_name_smal='small_sample_file.txt'
 # text read and convert to documents
 text_reader_path =os.path.join(os.path.dirname(__file__),file_name_smal)

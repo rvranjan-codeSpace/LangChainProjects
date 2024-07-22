@@ -5,6 +5,7 @@ python-dotenv # load all env varaible
 pandas
 beautifulsoup4 # for web scraping
 termcolor # for coloring the texts
+langchain_community
 
 # PDF query
 PyPDF2
