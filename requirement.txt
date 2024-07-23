@@ -20,4 +20,9 @@ langchain-huggingface
 langchain_chroma
 sentence_transformers
 
+#API
+fastapi
+langserve
+sse_starlette
+
 
