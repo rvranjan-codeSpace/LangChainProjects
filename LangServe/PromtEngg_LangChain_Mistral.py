@@ -1,9 +1,6 @@
 from langchain_community.llms.ollama import Ollama
-from langchain.chains.llm import LLMChain
-from langchain_core.language_models.llms import BaseLLM
 from langchain_core.output_parsers import StrOutputParser
 from langchain.prompts import ChatPromptTemplate
-from langchain_core.runnables import Runnable
 from fastapi import FastAPI
 from langchain_openai import ChatOpenAI
 import os

@@ -1,6 +1,5 @@
 from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
-from langchain_text_splitters import RecursiveCharacterTextSplitter
 import os
 
 load_dotenv()
@@ -16,5 +15,10 @@ print(len(embeddings_result))
 
 embeddings_result = embedings.embed_documents([query_text])
 print(embeddings_result)
+
+# fibonacci method
+
+
+
 
 
